@@ -1,0 +1,29 @@
+{
+    "name": "node-todo-app",
+    "version": "1.0.0",
+    "description": "Simple Todo App Backend",
+    "main": "dist/server.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "nodemon src/server.ts",
+        "build": "npx tsc",
+        "clean": "npx rimraf dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/musman97/node-todo-app.git"
+    },
+    "keywords": [],
+    "author": "Muhammad Usman (musman97)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/musman97/node-todo-app/issues"
+    },
+    "homepage": "https://github.com/musman97/node-todo-app#readme",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "nodemon": "^2.0.18",
+        "ts-node": "^10.8.1",
+        "typescript": "^4.7.4"
+    }
+}
